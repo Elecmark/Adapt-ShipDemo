@@ -1,0 +1,60 @@
+﻿Build started 2023/3/15 14:48:50.
+     1>Project "C:\Users\pc\Desktop\PC Game\ShipDemo\ShipDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\ShipDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\ShipDemo.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\ShipDemo.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildView.cpp Explosion.cpp MainFrm.cpp MyObject.cpp MyShip.cpp Score.cpp ShipDemo.cpp Submarine.cpp
+         Submarine.cpp
+         ShipDemo.cpp
+     1>c:\users\pc\desktop\pc game\shipdemo\shipdemo.cpp(51): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : see declaration of 'CWinApp::Enable3dControls'
+         Score.cpp
+         MyShip.cpp
+         MyObject.cpp
+         MainFrm.cpp
+         Explosion.cpp
+         ChildView.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\ShipDemo.res" ShipDemo.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ShipDemo.exe.embed.manifest.res" .\Debug\ShipDemo_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ShipDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\ShipDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pc\Desktop\PC Game\ShipDemo\Debug\ShipDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ShipDemo.lib" /MACHINE:X86 .\Debug\ShipDemo.res
+         .\Debug\ShipDemo.exe.embed.manifest.res
+         .\Debug\ChildView.obj
+         .\Debug\Explosion.obj
+         .\Debug\MainFrm.obj
+         .\Debug\MyObject.obj
+         .\Debug\MyShip.obj
+         .\Debug\Score.obj
+         .\Debug\ShipDemo.obj
+         .\Debug\StdAfx.obj
+         .\Debug\Submarine.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ShipDemo.exe.embed.manifest" /manifest .\Debug\ShipDemo.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ShipDemo.exe.embed.manifest.res" .\Debug\ShipDemo_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ShipDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\ShipDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pc\Desktop\PC Game\ShipDemo\Debug\ShipDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ShipDemo.lib" /MACHINE:X86 .\Debug\ShipDemo.res
+         .\Debug\ShipDemo.exe.embed.manifest.res
+         .\Debug\ChildView.obj
+         .\Debug\Explosion.obj
+         .\Debug\MainFrm.obj
+         .\Debug\MyObject.obj
+         .\Debug\MyShip.obj
+         .\Debug\Score.obj
+         .\Debug\ShipDemo.obj
+         .\Debug\StdAfx.obj
+         .\Debug\Submarine.obj
+         ShipDemo.vcxproj -> C:\Users\pc\Desktop\PC Game\ShipDemo\.\Debug\ShipDemo.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\ShipDemo.unsuccessfulbuild".
+         Touching ".\Debug\ShipDemo.lastbuildstate".
+     1>Done Building Project "C:\Users\pc\Desktop\PC Game\ShipDemo\ShipDemo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.43
