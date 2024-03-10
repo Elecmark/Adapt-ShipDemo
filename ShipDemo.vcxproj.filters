@@ -42,6 +42,9 @@
     <ClCompile Include="Submarine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ShipDemo.rc">
@@ -79,6 +82,9 @@
     <ClInclude Include="Submarine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="res\explosion.bmp">
@@ -97,5 +103,8 @@
       <Filter>Resource Files</Filter>
     </CustomBuild>
     <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\missile.png" />
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@ public:
 	int GetType() { return m_nType; }
 	bool Draw(CDC* pDC, bool bPause);
 	CSubmarine(bool bDir, int nVert, int nType, int nSpeed);
+	CRect GetRect() const;
 	virtual ~CSubmarine();
 
 private:

@@ -20,12 +20,20 @@ CImageList CSubmarine::m_Images;
 
 CSubmarine::CSubmarine(bool bDir, int nVert, int nType, int nSpeed)
 {
+	CRect GetRect(); // 获取潜艇的碰撞箱
 	m_bDirect = bDir;
 	m_ptPos.x = m_bDirect ? GAME_WIDTH : -SUBMARINE_WIDTH;
 	m_ptPos.y = nVert;
 	m_nType = nType;
 	m_nSpeed = nSpeed;
 	m_bEnemy = true;
+}
+
+CRect CSubmarine::GetRect() const {
+	// 以类似的方式为潜艇定义矩形
+	const int SubmarineWidth = 20;
+	const int SubmarineHeight = 60;
+	return CRect(m_ptPos.x, m_ptPos.y, m_ptPos.x + SubmarineWidth, m_ptPos.y + SubmarineHeight);
 }
 
 CSubmarine::~CSubmarine()

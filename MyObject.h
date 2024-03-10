@@ -16,7 +16,7 @@ public:
 	CPoint GetPos() { return m_ptPos; }
 
 	virtual bool Draw(CDC* pDC, bool bPause)=0;
-
+	CMyObject(CPoint ptPos);
 	CMyObject();
 	virtual ~CMyObject();
 
